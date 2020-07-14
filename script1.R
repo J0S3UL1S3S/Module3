@@ -1,6 +1,9 @@
 library(fivethirtyeight)
 library(tidyverse)
 
+format(Sys.Date(), "%A, %B %d, %Y")
+
+
 data("steak_survey", package="fivethirtyeight")
 View(steak_survey)
 
